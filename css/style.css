@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-sidebar {
+    z-index: 2;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    background: grey;
+    transition: all ease 1s;
+}
+.menu-sidebar.active {
+    left: 0px;
+}
+
+.menu-sidebar ul li:first-child{
+    text-align: center;
+    color: white;
+    font-size: 1.95em;
+    list-style: none;
+    padding: 25px 10px 10px 10px;
+
+}
+.menu-sidebar ul li:not(:first-child) {
+    width: 90%;
+    margin-left: 10%;
+    color: white;
+    font-size: 1.1em;
+    list-style: none;
+    padding: 15px 10px;
+}
+
+/* button of menu */
+.btn-toggle {
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    background: #e0e5Ea;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-toggle span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: darkgray;
+    margin: 4px 0;
+}
+
+.btn-toggle:hover {
+    background: darkgrey;
+}
+
+.btn-toggle:hover span {
+    background: black;
+}
