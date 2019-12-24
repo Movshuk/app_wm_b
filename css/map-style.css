@@ -1,0 +1,175 @@
+#RU{
+    fill: orangered;
+}
+#CN{
+    fill: coral;
+}
+#BY{
+    fill: lightgreen;
+}
+#KZ{
+    fill: blue;
+}
+#AM{
+    fill: yellow;
+}
+#KG{
+    fill: violet;
+}
+
+#IN{
+    fill: lightblue;
+}
+
+#BR{
+    fill: lightsalmon;
+}
+
+#ZA{
+    fill: lightgreen;
+}
+
+#US{
+    fill: lightpink;
+}
+
+#CA{
+    fill: lightseagreen;
+}
+#MX{
+    fill: limegreen;
+}
+#DE{
+    fill: orangered;
+}
+#FR{
+    fill: lightpink;
+}
+#MN{
+    fill: goldenrod;
+}
+#AU{
+    fill: royalblue;
+}
+#AR{
+    fill: royalblue;
+}
+#DZ{
+    fill: forestgreen;
+}
+#DK{
+    fill: lightskyblue;
+}
+#PE{
+    fill: #6A5ACD;
+}
+#PL{
+    fill: #BC8F8F;
+}
+#FI{
+    fill: #87CEFA;
+}
+#TJ{
+    fill: #9ACD32;
+}
+#IR{
+    fill: #A0522D;
+}
+#UZ{
+    fill: #2F4F4F;
+}
+#NO{
+    fill: #9ACD32;
+}
+#SE{
+    fill: #6A5ACD;
+}
+#JP{
+    fill: #DC143C;
+}
+#KR{
+    fill: #7FFFD4;
+}
+#UA{
+    fill: #ADFF2F;
+}
+#NZ{
+    fill: #F08080;
+}
+#TR{
+    fill: #DEB887;
+}
+#CL{
+    fill: #DEB887;
+}
+#IQ{
+    fill: lightseagreen;
+}
+#PK{
+    fill: #808000;
+}
+#IT{
+    fill: #EE82EE;
+}
+#KP{
+    fill: #228B22;
+}
+#IE{
+    fill: #A52A2A;
+}
+#IS{
+    fill: #6495ED;
+}
+#ES{
+    fill: #98FB98;
+}
+#CM{
+    fill: lightseagreen;
+}
+#KE{
+    fill: #F08080;
+}
+#JO{
+    fill: #228B22;
+}
+#UY{
+    fill: orangered;
+}
+#GB{
+    fill: #FF8C00;
+}
+
+
+
+
+#RU:hover,
+#US:hover,
+#CA:hover,
+#MX:hover,
+#AR:hover,
+#DZ:hover,
+#AU:hover,
+#MN:hover,
+#BY:hover,
+#FR:hover,
+#DE:hover {
+    fill:grey;
+    cursor: pointer;
+}
+
+#RU.eac,
+#KZ.eac,
+#KG.eac,
+#AM.eac,
+#BY.eac {
+    fill:#696969;
+    transition: transform .1s;
+}
+
+#RU.brics,
+#CN.brics,
+#BR.brics,
+#ZA.brics,
+#IN.brics {
+    fill:rgb(115, 156, 197);
+}
